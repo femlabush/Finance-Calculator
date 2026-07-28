@@ -1,0 +1,9 @@
+RewriteEngine On
+
+RewriteBase /finance_calculator/
+
+
+# re rouye
+RewriteRule ^api/(.*)$ index.php [QSA,L]
+
+
